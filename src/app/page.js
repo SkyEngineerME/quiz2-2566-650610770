@@ -1,6 +1,6 @@
 "use client";
 
-import { Comments } from "@/components/Comments";
+import { Comment } from "@/components/Comment";
 import { PostOwner } from "@/components/PostOwner";
 import { Reply } from "@/components/Reply";
 
@@ -17,7 +17,7 @@ export default function HomePage() {
       >
         <PostOwner Name="Thanathorn" LastN = "Taewattanapanit" Code="650610770"/>
 
-        <Comments userImagePath = "/profileImages/Lisa.jpg" username = "Lisa" commentText = "จริงค่า" likeNum = "999"/>
+        <Comment userImagePath = "/profileImages/Lisa.jpg" username = "Lisa" commentText = "จริงค่า" likeNum = "999"/>
       
 
         <Reply userImagePath = "/profileImages/puppy.jpg" username="หมาน้อย" replyText = "จริงค้าบบบบบบบ" likeNum = "2"/>
