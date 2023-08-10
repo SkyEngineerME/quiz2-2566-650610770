@@ -1,4 +1,4 @@
-export const Comments = props => {
+export const Comment = props => {
   return <div>
     
     <div className="d-flex gap-2 my-2">
